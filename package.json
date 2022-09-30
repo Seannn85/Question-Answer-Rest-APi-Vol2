@@ -1,0 +1,34 @@
+{
+  "name": "question-answer-rest-api",
+  "version": "1.0.0",
+  "description": "Express - Question Answer Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seannn85/Question-Answer-Rest-APi-Vol2.git"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Goktug Koyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seannn85/Question-Answer-Rest-APi-Vol2/issues"
+  },
+  "homepage": "https://github.com/Seannn85/Question-Answer-Rest-APi-Vol2#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
